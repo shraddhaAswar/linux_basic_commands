@@ -7,33 +7,41 @@ ls -ltr
 top
 uptime
 df -h
+
 groupadd group_name
 gpasswd group_name
 adduser user_name
 passwd user_name
+
 cat /etc/group
 cat /etc/passwd
 cat /etc/shadow
 cat /etc/login.dfs
+
 usermod -a -G group_name user_name
 usermod -a group_name user_name
 touch file_name
 rm -rf file_name
+
 chown own_name directory_name
 chown -R own_name directory_name
 chgrp group_name directory_name
 chgrp -R group_name dir_name
+
 ping server_name
 ping ip_address
+
 wc -l
 wc -w
 wc -c
 rpm -qa
+
 head /etc/passwd
 head -n 5/etc/passwd
 tail
 tail /etc/passwd
 cat -b/etc/passwd
+
 grep root/etc/passwd
 grep -v root/etc/passwd
 grep ^root /etc/passwd
@@ -42,3 +50,27 @@ grep -E "root|sync" /etc/passwd
 grep -f pattern/etc/passwd
 grep -f pattern /etc/passwd >file_name
 
+sed s/file/doc file_name
+sed s/file/doc/i file_name
+sed s/file/doc/ig file_name
+
+ps free
+ps, ps -a, ps -e, ps -el, ps -elf
+
+sysctl -a | grep pid
+ps -aux
+
+kill -L
+kill -15
+kill -9
+pkill yes
+
+nice -n 10 yes
+
+free ; free -k; free -m free -g; 
+vmstat
+iostat
+netstat -i
+sar; sar -r; sar -s
+
+ls -a
