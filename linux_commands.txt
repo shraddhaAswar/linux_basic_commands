@@ -74,3 +74,19 @@ netstat -i
 sar; sar -r; sar -s
 
 ls -a
+
+cp -rf devops devloper
+cp -rf /home/devops /tmp/operational
+
+mv developer testing
+tar -cvf java-compress.tar javadir
+tar -cvf java-compress.tar
+tar -xvf java-compress.tar
+
+gzip javacompress.tar
+gzip javacompress.tat.gz
+
+bzip javacompress.tar
+bunzip javacompress.tar.bz2
+
+
