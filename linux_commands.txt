@@ -22,3 +22,23 @@ rm -rf file_name
 chown own_name directory_name
 chown -R own_name directory_name
 chgrp group_name directory_name
+chgrp -R group_name dir_name
+ping server_name
+ping ip_address
+wc -l
+wc -w
+wc -c
+rpm -qa
+head /etc/passwd
+head -n 5/etc/passwd
+tail
+tail /etc/passwd
+cat -b/etc/passwd
+grep root/etc/passwd
+grep -v root/etc/passwd
+grep ^root /etc/passwd
+grep sync $/etc/passwd
+grep -E "root|sync" /etc/passwd
+grep -f pattern/etc/passwd
+grep -f pattern /etc/passwd >file_name
+
