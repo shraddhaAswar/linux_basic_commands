@@ -1,0 +1,24 @@
+linux commands
+
+cd /
+cd ..
+sudo su 
+ls -ltr
+top
+uptime
+df -h
+groupadd group_name
+gpasswd group_name
+adduser user_name
+passwd user_name
+cat /etc/group
+cat /etc/passwd
+cat /etc/shadow
+cat /etc/login.dfs
+usermod -a -G group_name user_name
+usermod -a group_name user_name
+touch file_name
+rm -rf file_name
+chown own_name directory_name
+chown -R own_name directory_name
+chgrp group_name directory_name
