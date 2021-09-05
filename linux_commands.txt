@@ -86,7 +86,6 @@ tar -xvf java-compress.tar
 gzip javacompress.tar
 gzip javacompress.tat.gz
 
-bzip javacompress.tar
-bunzip javacompress.tar.bz2
+
 
 
